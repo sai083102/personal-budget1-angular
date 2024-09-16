@@ -1,0 +1,35 @@
+{
+    "myBudget": [
+    {
+    "title" : "Eat out",
+    "budget" : "40"
+    },
+    {"title" : "Rent",
+    "budget" : "350"},
+    {"title" : "House holds",
+    "budget" : "40"},
+    {
+        "title" : "gas",
+        "budget" : "50"
+    },
+    {
+        "title" : "Others",
+        "budget" : "30"
+    },
+    {
+        "title" : "Mobile bill",
+        "budget" : "100"
+    },
+    {
+        "title" : "shopping",
+        "budget": "120"
+    },
+    {
+        "title" : "bills",
+        "budget" : "30"
+    }
+  
+    
+  ]
+    
+  }
