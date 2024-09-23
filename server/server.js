@@ -5,26 +5,26 @@ const port = 3000;
 app.use('/',express.static('public'));
 const budget = require('./budget-data.json');
 
-//const budget = {
-//   myBudget: [
-//    {
-//        title: 'Eat out',
-//        budget: 25
-//    },
-//    {
-//        title: 'Rent',
-//        budget: 375
-//    },
-//    {
-//        title: 'Grocery',
-//        budget: 110
-//    },
-//   ]
-//};
+const budget = {
+  myBudget: [
+   {
+       title: 'Eat out',
+       budget: 25
+   },
+   {
+       title: 'Rent',
+       budget: 375
+   },
+   {
+       title: 'Grocery',
+       budget: 110
+   },
+  ]
+};
 app.use("/", express.static('public'))
-//app.get('/hello',(req, res) =>{
-//    res.send('Hello World!');
-//});
+app.get('/hello',(req, res) =>{
+   res.send('Hello World!');
+});
 
 app.get('/budget', (req, res) => {
     res.json(budget);
